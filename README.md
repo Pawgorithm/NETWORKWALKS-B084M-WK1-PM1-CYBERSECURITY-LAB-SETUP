@@ -41,19 +41,7 @@ The lab provides a controlled environment for learning virtualization, Linux net
 
 ## 🏗️ Lab Architecture
 
-```text
-Windows 11 Host
-    |
-Oracle VirtualBox
-    |
-NAT Network: NatNetwork (10.0.0.0/24)
-    |-- Virtual gateway: 10.0.0.1
-    |-- Kali Linux 2026.2: 10.0.0.2/24
-    |-- Future authorized lab VMs
-    |
-Outbound connectivity via NAT
-DNS server configured: 8.8.8.8
-```
+![Cybersecurity Lab Architecture](screenshots/lab-architecture.png)
 
 The NAT Network supports communication between VMs attached to it and outbound connectivity through VirtualBox NAT. It is not a guarantee of complete isolation from external networks.
 
@@ -88,7 +76,7 @@ Download Oracle VirtualBox and the official Kali Linux VirtualBox image. Use 7-Z
 
 Open the extracted Kali Linux virtual machine in VirtualBox and configure the VM resources. This lab uses 2048 MB of RAM and two virtual processors.
 
-![VirtualBox Manager Home](screenshots/01-virtualbox-manager-home.png)
+![VirtualBox Manager Home](screenshots/02-virtualbox-vm-overview.png)
 
 ### Step 3. Create the NAT Network
 
@@ -101,7 +89,7 @@ DHCP:        Enabled
 IPv6:        Disabled
 ```
 
-![NAT Network configuration](screenshots/7.png)
+![NAT Network Configuration](screenshots/03-nat-network-configuration.png)
 
 ### Step 4. Attach Kali Linux to the NAT Network
 
