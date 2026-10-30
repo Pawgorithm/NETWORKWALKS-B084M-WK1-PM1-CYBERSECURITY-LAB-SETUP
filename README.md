@@ -89,7 +89,7 @@ DHCP:        Enabled
 IPv6:        Disabled
 ```
 
-![NAT Network Configuration](screenshots/03-nat-network-configuration.png)
+![NAT Network Configuration](screenshots/03-kali-ipv4-configuration.png)
 
 ### Step 4. Attach Kali Linux to the NAT Network
 
@@ -102,7 +102,7 @@ Adapter:     Intel PRO/1000 MT Desktop
 Cable:       Connected
 ```
 
-![VirtualBox network adapter configuration](screenshots/image%2820261030-015204%29.png)
+![VirtualBox Network Adapter](screenshots/04-virtualbox-network-adapter.png)
 
 ### Step 5. Configure IPv4 in Kali Linux
 
@@ -114,6 +114,8 @@ Netmask: 24 (equivalent to 255.255.255.0)
 Gateway: 10.0.0.1
 DNS:     8.8.8.8
 ```
+
+![NAT Network Configuration](screenshots/05-nat-network-configuration.png)
 
 Check the active interface and routing configuration:
 
