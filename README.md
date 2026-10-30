@@ -142,7 +142,7 @@ The shared folder mount has been observed. To verify file transfer end to end, c
 
 After the initial setup, create a snapshot named **Clean kali - Network Setup** from the VirtualBox **Snapshots** tab. This provides a baseline for future recovery.
 
-![Clean Kali Linux snapshot](screenshots/snapshot-clean-kali-network-setup.png)
+![Kali Clean Snapshot](screenshots/08-kali-clean-snapshot.png)
 
 The snapshot was created on **30 October 2026**. Creating a snapshot does not itself demonstrate that a restore test was performed.
 
@@ -163,7 +163,7 @@ The following commands were used or identified for network verification:
 | Nmap availability | `nmap --version` | Optional tool check; not claimed as verified |
 | Snapshot recovery | Restore snapshot and recheck IP | Not claimed as tested |
 
-![Internet and DNS connectivity verification](screenshots/6%281%29.png)
+![Kali Connectivity and DNS Test](screenshots/07-kali-connectivity-dns-test.png)
 
 **Observed result:** Gateway, external IP, and domain connectivity tests succeeded during the recorded testing session. Final persistence of the static IPv4 configuration after a reboot still needs confirmation.
 
