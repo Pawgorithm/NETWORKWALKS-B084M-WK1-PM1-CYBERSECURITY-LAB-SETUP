@@ -88,7 +88,7 @@ Download Oracle VirtualBox and the official Kali Linux VirtualBox image. Use 7-Z
 
 Open the extracted Kali Linux virtual machine in VirtualBox and configure the VM resources. This lab uses 2048 MB of RAM and two virtual processors.
 
-![Kali Linux virtual machine in VirtualBox](screenshots/image%2820261030-015204%29.png)
+![VirtualBox Manager Home](screenshots/01-virtualbox-manager-home.png)
 
 ### Step 3. Create the NAT Network
 
